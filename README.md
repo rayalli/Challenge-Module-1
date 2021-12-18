@@ -71,4 +71,12 @@ Incomplete or missing data:
 
 - What are some limitations of this dataset?
 
+As with any dataset, some data points are not part of the original data. 
+Thus, we need to build the data points required to respond the questions. 
+
 - What are some other possible tables and/or graphs that we could create?
+
+	-Table: Subcategories and Goals
+	-Table: Years and Outcome. 
+
+
