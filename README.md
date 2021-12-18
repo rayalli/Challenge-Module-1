@@ -35,17 +35,24 @@ Based on Goals provides a view of success and failures based on the goal thresho
 
 Incomplete or missing data: 
 
-	-Percentage Fund missing:   This issue was solved by calculating per kickstart campaign using the formula = (Pledged $ / goal $) * 100, rounded to the two using round function in excel. 
+	-Percentage Fund missing:   This issue was solved by calculating per kickstart campaign using the formula 
+	 = (Pledged $ / goal $) * 100, rounded to the two using round function in excel. 
  
-	-Average donation missing    Added to the data set by calculating per each kickstart campaign using the formula = (Pledged $ / backers count)
+	-Average donation missing    Added to the data set by calculating per each kickstart campaign using the formula 
+	 = (Pledged $ / backers count)
  
-	-Parent Category and Subcategory classification joined: Parent category and subcategory data separated and added to the data set via text to column feature in excel using the ( / ) as the delimiter. 
+	-Parent Category and Subcategory classification joined: Parent category and subcategory data separated and added 
+	 to the data set via text to column feature in excel using the ( / ) as the delimiter. 
  
-	-Date created: original data set provide the launched kickstart date using the UNIX format date system. The conversation to Month/Day/Year or MM/DD/YYYY format was achieved by the following formula = ((( UNIX Date reference Cell / 60  )/ 60 )/ 24 ) + DATE(1970,1,1). 
+	-Date created: original data set provide the launched kickstart date using the UNIX format date system. 
+	 The conversation to Month/Day/Year or MM/DD/YYYY format was achieved by the following formula 
+	 = ((( UNIX Date reference Cell / 60  )/ 60 )/ 24 ) + DATE(1970,1,1). 
  
-	-Years missing: leveraging the date created cell, the function = Year ( Date Created cell ) was applied to extract the start year of the kickstart. 
+	-Years missing: leveraging the date created cell, the function = Year ( Date Created cell ) 
+	 was applied to extract the start year of the kickstart. 
  
-	-Goal Range missing sorted the goals in descending order, then filtering the data by the necessary ranges and flag manually the goal corresponding bucket into a new column named “Goal range.”   
+	-Goal Range missing sorted the goals in descending order, then filtering the data by the necessary ranges 
+	 and flag manually the goal corresponding bucket into a new column named “Goal range.”   
 
 
 ## Results
