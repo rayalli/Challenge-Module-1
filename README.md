@@ -1,2 +1,2 @@
-# Challenge-Module-1
+# kickstarter-analysis
 Challenge Module 1
